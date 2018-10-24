@@ -439,26 +439,43 @@ article p {
   font-family: opensans;
 }
 
-.school-footer a {
-    text-decoration: none;
-    font-family: opensans;
-    font-size: 1.875rem;
-    padding:0;
-    color: black;
-    text-align: center;
-    margin: 0 auto;
-  }
+footer {
+  padding: .2em;
+  background-color: #F6DFD4;
+  top: 0;
+  left: 0;
+  right:0;
+}
 
-  .school-footer {
-    text-align: center;
-    padding-top: .625rem;
-  }
+footer a {
+  text-decoration: none;
+  font-family: opensans;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+    margin: 0 5em;
+}
 
-  .school-footer a:hover {
-    background: #F6DFD4;
-    color: black;
-    padding: .25rem;
-  }
+/* visited link */
+ footer a:visited {
+  color: black;
+}
+
+/* mouse over link */
+footer a:hover {
+  background: #BDBDBD;
+  color: black;
+}
+
+/* remove list bullets */
+footer ul {
+  list-style-type:none;
+}
+
+/* nav display horizontal */
+footer ul li {
+  display:inline;
+}
 
 /* ********** START Schoolwork 500 *********** */
 

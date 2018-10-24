@@ -191,19 +191,40 @@ img.hover-shadow {
 }
 
 
-.footer a {
+footer {
+  padding: .2em;
+  background-color: #F6DFD4;
+  top: 0;
+  left: 0;
+  right:0;
+}
+
+footer a {
   text-decoration: none;
   font-family: opensans;
-  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 0 5em;
+}
+
+/* visited link */
+ footer a:visited {
   color: black;
 }
 
-.footer {
-  text-align: center;
+/* mouse over link */
+footer a:hover {
+  background: #BDBDBD;
+  color: black;
 }
 
-.footer a:hover {
-  background: #F6DFD4;
-  color: black;
-  padding: 5px;
+/* remove list bullets */
+footer ul {
+  list-style-type:none;
+}
+
+/* nav display horizontal */
+footer ul li {
+  display:inline;
 }
