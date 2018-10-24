@@ -295,7 +295,7 @@ figcaption {
     padding-top: 2rem;
 }
 
-.container1, .container2, .container3 {
+.container1 {
     position: relative;
     width: inherit;
     align-items: center;
@@ -304,17 +304,13 @@ figcaption {
 
 /*Image Hover Effect*/
 
-.photography_image,
-.clientwork_image,
-.schoolwork_image {
+.container1 {
   display:block;
   width:100%;
   height: auto;
 }
 
-.overlay1,
-.overlay2,
-.overlay3 {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -327,19 +323,15 @@ figcaption {
   background-color: #F6DFD4;
 }
 
-.container1:hover .overlay1,
-.container2:hover .overlay2,
-.container3:hover .overlay3 {
+.container1:hover .overlay {
   opacity: 1;
 }
 
-.text1,
-.text2,
-.text3 {
+.overlay h2 {
   text-decoration: none;
   font-family: opensans;
   color: white;
-  font-size: 1.25rem;
+  font-size: 1.45rem;
   position: absolute;
   top: 50%;
   left: 50%;
