@@ -22,8 +22,8 @@ nav a {
   font-family: opensans;
   color: white;
   font-weight: bold;
-  font-size: 20px;
-  margin:0 10px;
+  font-size: 1.3rem;
+  margin:0 .6rem;
 }
 
 /* visited link */
@@ -50,9 +50,9 @@ nav ul li {
 /*Header Tag - Universal throughout */
 h1 {
   font-family: opensans;
-  padding-top: 50px;
+  padding-top: 3.125rem;;
   text-align: center;
-  font-size: 40px;
+  font-size: 2.5rem;
 }
 
 * {
@@ -60,7 +60,7 @@ h1 {
 }
 
 .row > .column {
-  padding: 0 8px;
+  padding: 0 .5rem;
 }
 
 .row:after {
@@ -102,9 +102,9 @@ h1 {
 .close {
   color: white;
   position: absolute;
-  top: 10px;
-  right: 25px;
-  font-size: 35px;
+  top: 5%;
+  right: 10%;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
@@ -130,13 +130,13 @@ h1 {
   position: absolute;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding: 1rem;
   margin-top: -50px;
   color: white;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 4rem;;
   transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
+  border-radius: 0 .16rem .16rem 0;
   user-select: none;
   -webkit-user-select: none;
 }
@@ -144,7 +144,7 @@ h1 {
 /* Position the "next button" to the right */
 .next {
   right: 0;
-  border-radius: 3px 0 0 3px;
+  border-radius: .16rem 0 0 .16rem;
 }
 
 /* On hover, add a black background color with a little bit see-through */
@@ -156,8 +156,8 @@ h1 {
 /* Number text (1/3 etc) */
 .numbertext {
   color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+  font-size: 1rem;
+  padding: .5rem .8rem;
   position: absolute;
   top: 0;
 }
@@ -169,7 +169,7 @@ img {
 .caption-container {
   text-align: center;
   background-color: black;
-  padding: 2px 16px;
+  padding: .1rem;
   color: white;
 }
 
