@@ -194,9 +194,7 @@ img.hover-shadow {
 footer {
   padding: .2em;
   background-color: #F6DFD4;
-  top: 0;
-  left: 0;
-  right:0;
+  margin-top:1em;
 }
 
 footer a {
@@ -204,8 +202,9 @@ footer a {
   font-family: opensans;
   color: white;
   font-weight: bold;
-  font-size: 20px;
-  margin: 0 5em;
+  font-size: 1rem;
+  margin:0 auto;
+  padding: .5em;
 }
 
 /* visited link */
