@@ -266,7 +266,7 @@ figcaption {
 .backtop:hover {
   background: #BDBDBD;
   color: white;
-  text-shadow: 1% 1% 0rem #000000;
+  text-shadow: 1em 1em 0em #000000;
 }
 
 
