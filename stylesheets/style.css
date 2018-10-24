@@ -274,8 +274,12 @@ figcaption {
 
 
 /* *************************************** START PROJECTS ************************************ */
+nav {
+  position: relative;
+	
+	}
 
-.project-main {
+	.project-main {
   font-family: opensans;
   display: -webkit-flex; /* Safari */
   -webkit-align-items: center; /* Safari 7.0+ */

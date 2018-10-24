@@ -4,7 +4,7 @@
 }
 
 nav {
-  position: fixed;
+  position: absolute;
   padding: 0;
   background-color: #F6DFD4;
   top: 0;
