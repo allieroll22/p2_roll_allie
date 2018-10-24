@@ -440,9 +440,8 @@ article p {
 }
 
 footer {
-  padding: .2em;
+  padding: .9em;
   background-color: #F6DFD4;
-  top: 0;
   left: 0;
   right:0;
 }
@@ -453,7 +452,7 @@ footer a {
   color: white;
   font-weight: bold;
   font-size: 20px;
-    margin: 0 5em;
+  margin:5em;
 }
 
 /* visited link */
